@@ -7,7 +7,7 @@ spring:
     url: jdbc:mysql://localhost:3306/worcflo_local?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: root
     password: password
-    driver-class-name: com.mysql.cj.jdbc.Driver   
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
@@ -18,8 +18,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-  datasource:
-    platform: mysql
 #zoom app testing credentials
 app:
   zoom:
